@@ -1,70 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>在联大评教助手</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>海棠微泛公众号</title>
 </head>
 
 <body>
-    <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">本脚本由"在联大"公众号提供</h4>
+    <div>
+        <h3>鼠标左键按住下面"一键完成评分",拖动到你得书签栏里面👆</h3>
+    </div>
+    <a href="javascript:( function () { var trPjs = window.frames['zhuti'].document.getElementById('trPjs').getElementsByTagName('select'); console.log('本Javascript脚本由北京联合大学在校学生，海棠工作室出品，我们的公众号是：海棠微泛，欢迎关注和关注！'); let random = Math.ceil(Math.random() * 9); for (let i = 0; i < trPjs.length; i++) { trPjs[i].selected = 'selected'; if (i == random) { trPjs[i].value = '满意' } else { trPjs[i].value = '非常满意' } } window.frames['zhuti'].document.getElementById('Button1').click() } )()"
+        onclick="alert('亲，你要把我拖动到书签栏才行哦');return false;">一键完成评分</a>
+    <div>
 
-        <p class="mb-0"> 童鞋们又要开始评教了，但是评教太麻烦了，要点击很多次鼠标，我们通过脚本实现吧。此脚本适用于使用正方管理系统的大学，用了此脚本，每个老师只有一个满意，其他都是非常满意。（不允许都是非常满意）
-        </p>
-        <hr>
+
         <p>
-            <a
-                href="javascript:(function(){var obj=$('iframeautoheight').contentDocument.getElementsByTagName('select'); for(i=1;i<obj.length;i++){ obj[i].value='非常满意'; } var rid=Math.max(1, Math.floor(Math.random()*obj.length)); obj[rid].value='满意'; $('iframeautoheight').contentDocument.getElementById('Button1').click(); })()"><strong>一键评教脚本</strong></a>
-            <br>
-            1.拖动上边的链接到浏览器书签栏或添加到书签：一键评教脚本<br>
-
-            2.打开教务管理系统的评教页面，进入第一个要评教的老师页面。<br>
-
-            3.点击书签栏的“一键评教脚本”，自动评教完毕并跳到下一个老师的评教页面。再次点击，以此类推。<br>
-
-            4.所有教师评教完毕后，点击提交。<br>
-
-            假如你有6个老师要评教，你只需要点击鼠标7下就完成评教了。妈妈再也不用担心我期末不能录入和查看成绩了！<br>
-
-            注意：<br>
-            要等待页面刷新保存后进入下一位老师的评教，在点击 一键评教脚本<br>
-
-            其他学校只需要更改一下赋值就可以了，有什么不懂得可以联系小助手微信myibuu哦！
-            <br>
-            据说不评教的同学，期末不能录入和查看成绩哟！
-            请大家尽快完成评教避免发生意外。
+            有什么不懂得可以联系小助手微信myibuu哦！
         </p>
-        <br>
-        <h3> 扫码关注 在联大</h3>
-        <img src="mmp.jpg" alt="Card">
-        <div>
-            <p><br>评教助手微信图文教程</p>
-            <a href="#" class="btn btn-primary">查看教程</a>
-        </div>
-
-
     </div>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
 </body>
 
 </html>
